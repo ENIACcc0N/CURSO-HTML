@@ -1,0 +1,45 @@
+h1 {
+    color: rgb(218, 34, 34);
+}
+/* Esto es una prueba de un comentario en CSS*/
+p {
+    color: blue;
+    font-size: 16pt;
+}
+/* Ejemplo de selectores con "id"*/
+#primer-P {
+    color: blueviolet;
+}
+
+p#segundo-P {
+    color: goldenrod;
+}
+#segundo-P {
+    /*color: brown;*/
+    font-size: large;
+}
+/* Ejemplo de selectores con "class"*/
+.segundo-título {
+    font-size: 16pt;
+    font-family: monospace;
+    font-weight: 200;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+
+/* selector universal "*" */
+*.warning{
+    color: rgb(21, 234, 124);
+}
+button {
+    font-size: 22pt;
+}
+/* ejemplo de selectores multiples*/
+p, #segundo-P, h1 {
+    font-family: cursive;
+}
+
+html {
+    padding: 15px;
+}
+

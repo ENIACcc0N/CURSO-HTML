@@ -1,0 +1,42 @@
+/*Posicionamiento static- viene de serie*/
+div{
+    border: 1px solid green;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+/*Posicionamiento Relativo, se posiciona en relación al poscicionamiento original*/
+.relative{
+    position: relative;
+    left: 20px;
+
+}
+/*Posicionamiento fixed, se posiciona en relación a la pantalla*/
+.fixed{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    background-color: blueviolet;
+    z-index: 10;
+}
+/*Posicionamiento absolute, poscicion absoluta*/
+.absolute{
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+
+.relative.container{
+    width: 300px;
+    height: 800px;
+    background-color: blue;
+    
+}
+/*Posicionamiento sticky(pegajoso)--posicionamiento entre fixed/relative*/
+.sticky{
+    position: sticky;
+    background-color: rgb(255, 0, 0);
+    color: blueviolet;
+    top: 0px;
+    z-index: 9;
+}

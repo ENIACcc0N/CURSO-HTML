@@ -1,0 +1,22 @@
+/* em: hace referencia al tamaño del contenedor y rem: al tamaño raiz con respecto al elemento padre.*/
+
+.escenario{
+    border: solid 1px #333;
+    padding: 10pxs;
+}
+
+.escenario-1{
+    font-size: 34px;
+}
+
+.escenario-2{
+    font-size: 16px;
+}
+
+.em{
+    font-size: 2em;
+}
+
+.rem{
+    font-size: 2rem;
+}

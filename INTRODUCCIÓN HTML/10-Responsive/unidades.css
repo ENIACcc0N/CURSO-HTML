@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.escenario {
+    margin: 10px 0px;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+
+.escenario-1 {
+    width: 100%;
+    
+}
+
+.escenario-2 {
+    width: 50%;
+    
+}
+
+h1 {
+    color: aqua;
+}
+
+.px{
+    background-color: green;
+    width: 200px;
+}
+
+.porcentaje{
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+}
+
+.vw{
+    background-color: rgb(242, 255, 0);
+    width: 50vw;
+}

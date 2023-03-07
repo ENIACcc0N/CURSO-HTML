@@ -1,0 +1,49 @@
+
+*{
+    padding: 0px; 
+    margin: 0px;
+    
+}
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{
+    content: '<<';
+    font-size:xx-small;
+}
+span.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+.libro{
+    padding: 15px;
+    background-color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.libro p::first-letter{
+    font-size: xx-large;
+}
+.libro p::first-line{
+    color: azure;
+}
+.libro p::selection{
+    color: rgb(255, 0, 21);
+    background-color: rgb(234, 80, 15);
+}
+.listado ul li::marker{
+    color: blue;
+}
+div.listado{
+    padding: 20px;
+    margin: 20px;
+}
+div{
+    background-color: blue;
+}

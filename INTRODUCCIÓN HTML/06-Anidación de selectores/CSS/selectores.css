@@ -1,0 +1,16 @@
+/*div.class .contenedor{
+    color: blue;
+}*/
+.class p{
+    color: green;
+}
+.class #boton-contenedor{
+    color: blue;
+    background-color: black;
+    border-radius: 15%;
+}
+button:hover{
+    opacity: 0.4;
+    color: brown;
+    background-color: blueviolet;
+}

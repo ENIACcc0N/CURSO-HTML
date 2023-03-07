@@ -1,0 +1,16 @@
+h1#id-h1.h1-class{
+    color: brown;
+}
+.h1-class{
+    color: yellow;
+}
+h1{
+    color: blue;
+}
+h1{
+    color: blueviolet !important; /*Evitar a toda costa*/
+}
+
+p{
+    color: rgb(21, 235, 92);
+}
